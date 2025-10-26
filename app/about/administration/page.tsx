@@ -23,7 +23,7 @@ export default function AdministrationPage() {
       MarathiName: "श्रीकांत साहेबराव बारपटे",
       EnglishName: "Shrikant Saheberao Barpate",
       positionKey: "सरपंच / Sarpanch",
-      image: "/images/Seal_of_Maharashtra.svg.png",
+      image: "/images/sarpanch.jpeg",
       phone: "+91-9767360550",
       phoneDevnagari: "+९१-९७६७३६०५५०",
       email: "shribarapate09504@gmail.com",
@@ -33,7 +33,7 @@ export default function AdministrationPage() {
       MarathiName: "प्रविण सखाराम बारपटे",
       EnglishName: "Pravin Sakharam Barpate",
       positionKey: "उप-सरपंच / Deputy Sarpanch",
-      image: "/images/Seal_of_Maharashtra.svg.png",
+      image: "/images/upsarpach1.jpeg",
       phone: "+91-9834860690",
       phoneDevnagari: "+९१-९८३४८६०६९०",
       email: "",
@@ -55,7 +55,7 @@ export default function AdministrationPage() {
       MarathiName: "रमेश तानाजी बारपटे",
       EnglishName: "Ramesh Tanaji Barpate",
       positionKey: "सदस्य / Member",
-      image: "/images/Seal_of_Maharashtra.svg.png",
+      image: "/images/ramesh_barpate.jpg",
       phone: "+91-9561504415",
       phoneDevnagari: "+९१-९५६१५०४४१५",
       email: "",
@@ -75,7 +75,7 @@ export default function AdministrationPage() {
       MarathiName: "साहेबराव विठ्ठल बारपटे",
       EnglishName: "Saheberao Vitthal Barpate",
       positionKey: "सदस्य / Member",
-      image: "/images/Seal_of_Maharashtra.svg.png",
+      image: "/images/sahebrao_barpate.jpg",
       phone: "+91-9326847780",
       phoneDevnagari: "+९१-९३२६८४७७८०",
       email: "",
@@ -95,7 +95,7 @@ export default function AdministrationPage() {
       MarathiName: "पूजा विशाल जाधव",
       EnglishName: "Pooja Vishal Jadhav",
       positionKey: "सदस्य / Member",
-      image: "/images/Seal_of_Maharashtra.svg.png",
+      image: "/images/pooja_jadhav.jpg",
       phone: "+91-9130251379",
       phoneDevnagari: "+९१-९१३०२५१३७९",
       email: "",
@@ -113,25 +113,6 @@ export default function AdministrationPage() {
   ];
 
   // const administrativeStaff = [
-  //   {
-  //     id: 7,
-  //     MarathiName: "संतोष भिमराव पाटील",
-  //     EnglishName: "Santosh Bhimrao Patil",
-  //     position: "पोलीस पाटील /Police Patil",
-  //     image: "/images/official3.jpg",
-  //     phone: "+91-9270001001",
-  //     phoneDevnagari: "+९१-९२७०००१००१",
-  //   },
-  //   {
-  //     id: 8,
-  //     MarathiName: "संतोष जयवंत जगताप ",
-  //     EnglishName: "Santosh Jaywant Jagtap",
-  //     position:
-  //       "तंटामुक्ती अध्यक्ष / President, Dispute-Free Village Committee",
-  //     image: "/images/official3.jpg",
-  //     phone: "+91-9689845978",
-  //     phoneDevnagari: "+९१-९६८९८४५९७८",
-  //   },
   // ];
 
   const committees = [
@@ -195,7 +176,7 @@ export default function AdministrationPage() {
                 <div className="bg-gradient-to-r from-government-blue to-government-green p-4 text-white text-center">
                   <div className="w-24 h-24 mx-auto mb-3 rounded-full overflow-hidden border-4 border-white">
                     <Image
-                      src={"/images/Seal_of_Maharashtra.svg.png"}
+                      src={member.image}
                       alt={"member.name"}
                       width={500}
                       height={500}

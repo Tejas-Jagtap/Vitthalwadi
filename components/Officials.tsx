@@ -25,7 +25,7 @@ const Officials = () => {
       MarathiName: "प्रविण सखाराम बारपटे",
       EnglishName: "Pravin Sakharam Barpate",
       positionKey: "officials.upSarpanch",
-      image: "/images/upsarpach1.jpeg",
+      image: "/images/upsarpanch.jpeg",
       phone: "+91-9834860690",
       phoneDevnagari: "+९१-९८३४८६०६९०",
       email: "",

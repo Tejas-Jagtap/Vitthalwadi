@@ -21,10 +21,39 @@ export default function GalleryPage() {
   const images = [
     {
       id: 1,
-      category: "office",
-      titleKey: "gallery.office",
-      date: "14 Oct 2025",
-      src: "/images/Seal_of_Maharashtra.svg.png",
+      titleKey: "intro.primarySchools",
+      category: "gallery.item1.category",
+      src: "/images/hero1.jpg",
+    },
+    {
+      id: 2,
+      titleKey: "",
+      category: "events",
+      src: "/images/hero2.jpg",
+    },
+    {
+      id: 3,
+      titleKey: "gallery.item2.category",
+      category: "development",
+      src: "/images/hero6.jpg",
+    },
+    {
+      id: 4,
+      titleKey: "gallery.item2.category",
+      category: "development",
+      src: "/images/hero7.jpg",
+    },
+    {
+      id: 5,
+      titleKey: "gallery.item1.category",
+      category: "events",
+      src: "/images/hero5.jpg",
+    },
+    {
+      id: 6,
+      titleKey: "gallery.item1.category",
+      category: "events",
+      src: "/images/hero3.jpg",
     },
   ];
 
@@ -138,7 +167,6 @@ export default function GalleryPage() {
                 <h3 className="font-bold text-government-blue mb-1 line-clamp-1 text-sm sm:text-base">
                   {t(image.titleKey)}
                 </h3>
-                <p className="text-xs text-gray-500">{image.date}</p>
               </div>
             </div>
           ))}
@@ -173,7 +201,6 @@ export default function GalleryPage() {
                     <h2 className="text-xl sm:text-2xl font-bold text-government-blue mb-2">
                       {t(image.titleKey)}
                     </h2>
-                    <p className="text-sm text-gray-500">{image.date}</p>
                   </div>
                 </div>
               ))}

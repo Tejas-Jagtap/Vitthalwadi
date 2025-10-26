@@ -12,9 +12,27 @@ const Gallery = () => {
   const images = [
     {
       id: 1,
-      titleKey: "gallery.office",
+      titleKey: "intro.primarySchools",
       categoryKey: "gallery.item1.category",
-      src: "/images/photo1.jpeg",
+      src: "/images/hero1.jpg",
+    },
+    {
+      id: 2,
+      titleKey: "",
+      categoryKey: "gallery.item1.category",
+      src: "/images/hero2.jpg",
+    },
+    {
+      id: 3,
+      titleKey: "gallery.item2.category",
+      categoryKey: "gallery.item1.category",
+      src: "/images/hero6.jpg",
+    },
+    {
+      id: 4,
+      titleKey: "gallery.item2.category",
+      categoryKey: "gallery.item1.category",
+      src: "/images/hero7.jpg",
     },
   ];
 
